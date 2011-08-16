@@ -1,0 +1,7 @@
+Este proyecto muestra como gestionar con Arduino + GSM/GPRS shield una granja de controladores.
+Los controladores "slaves" toman datos. Cuando salen de un cierto rango mandan un mensaje al maestro, que
+lo reenvía al administrador.
+El maestro hace llamadas perdidas a intervalos a los esclavos. Los esclavos las cortan y emiten una llamada
+perdida de vuelta. Si el maestro no recibe la "perdida" de vuelta, envía un SMS al administrador.
+
+Video en:...... (ftp de cuartielles)
